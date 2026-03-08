@@ -18,7 +18,7 @@ export default function Documents() {
       setDocuments(res.data.documents)
     } catch {
       setError('Failed to load documents')
-    } finally {y
+    } finally {
       setLoading(false)
     }
   }

@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react'
 import { FileText, Trash2, RefreshCw, AlertCircle } from 'lucide-react'
-import DocumentUpload from '../components/DocumentUpload'
+import DocumentUpload from '../components/temp'
 import { listDocuments, deleteDocument } from '../api/client'
 
 export default function Documents() {

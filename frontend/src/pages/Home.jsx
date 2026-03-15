@@ -30,7 +30,7 @@ export default function Home() {
     setLoading(true)
 
     try {
-      const res = await sendMessage(userMsg.content, sessionId)
+     const res = await sendMessage({ question: userMsg.content, session_id: sessionId })
       const botMsg = {
         id: uuidv4(),
         role: 'assistant',

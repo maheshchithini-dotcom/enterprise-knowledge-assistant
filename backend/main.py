@@ -25,12 +25,13 @@ app.add_middleware(
         "https://enterprise-knowledge-assistant-five.vercel.app",
         "https://enterprise-knowledge-assistant-git-9ce17b-maheshchithini-dotcoms-projects.vercel.app",
         "https://enterprise-knowledge-assistant-71jyfzu9v.vercel.app",
+        "https://enterprise-knowledge-assistant-seven.vercel.app",
+        "https://enterprise-knowledge-assistant-g7dtw3a45.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 # Register routers
 app.include_router(chat_router)
 app.include_router(documents_router)
